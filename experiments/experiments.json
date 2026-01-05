@@ -1,0 +1,1087 @@
+{
+  "JET_t_baseline_20251009_202025": {
+    "name": "JET_t_baseline",
+    "config": {
+      "model": "JET_t",
+      "learning_rate": 2e-05,
+      "batch_size": 8,
+      "max_epochs": 10,
+      "dropout": 0.1,
+      "max_offset": 10
+    },
+    "start_time": "2025-10-09T20:20:25.119861",
+    "status": "completed",
+    "metrics": {
+      "train": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:20:25.122846",
+          "loss": 0.9309052371169746,
+          "f1": 0.5286060939314602,
+          "precision": 0.6089285463400869,
+          "recall": 0.4152428839078416
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:20:25.122846",
+          "loss": 0.6639961433509771,
+          "f1": 0.6227958810440649,
+          "precision": 0.7292715868099822,
+          "recall": 0.5621452296184485
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:20:25.123855",
+          "loss": 1.6344267018585,
+          "f1": 0.7119284782155019,
+          "precision": 0.7764518977477157,
+          "recall": 0.6791375222560886
+        }
+      ],
+      "valid": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:20:25.122846",
+          "f1": 0.49840038621539706,
+          "precision": 0.5824340932291967,
+          "recall": 0.3858170125032818
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:20:25.123855",
+          "f1": 0.6153440563914133,
+          "precision": 0.6513897032281932,
+          "recall": 0.5158053954216641
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:20:25.124855",
+          "f1": 0.6959763710571703,
+          "precision": 0.7728615049323795,
+          "recall": 0.6627652040494422
+        }
+      ]
+    },
+    "checkpoints": [],
+    "dir": "experiments\\JET_t_baseline_20251009_202025",
+    "end_time": "2025-10-09T20:20:25.129854",
+    "final_metrics": {
+      "test_f1": 0.72,
+      "test_precision": 0.78,
+      "test_recall": 0.67
+    }
+  },
+  "JET_o_opinion_focused_20251009_202025": {
+    "name": "JET_o_opinion_focused",
+    "config": {
+      "model": "JET_o",
+      "learning_rate": 2e-05,
+      "batch_size": 8,
+      "max_epochs": 10,
+      "dropout": 0.1,
+      "max_offset": 10
+    },
+    "start_time": "2025-10-09T20:20:25.124855",
+    "status": "completed",
+    "metrics": {
+      "train": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:20:25.125858",
+          "loss": 1.404537569228313,
+          "f1": 0.5254251373824196,
+          "precision": 0.5931809192437238,
+          "recall": 0.3886687880369963
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:20:25.126862",
+          "loss": 0.4116309448956976,
+          "f1": 0.6348198903243532,
+          "precision": 0.6701451333630908,
+          "recall": 0.5125708657385922
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:20:25.127857",
+          "loss": 1.277802979228907,
+          "f1": 0.7478042706889994,
+          "precision": 0.7923744312151206,
+          "recall": 0.6669765164229076
+        }
+      ],
+      "valid": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:20:25.126862",
+          "f1": 0.4417541514166572,
+          "precision": 0.5461544803719645,
+          "recall": 0.3662595265550155
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:20:25.127857",
+          "f1": 0.5729117845586009,
+          "precision": 0.6782693442769582,
+          "recall": 0.5099833165739631
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:20:25.128854",
+          "f1": 0.7302391646943397,
+          "precision": 0.7573231927974456,
+          "recall": 0.6622944490109224
+        }
+      ]
+    },
+    "checkpoints": [],
+    "dir": "experiments\\JET_o_opinion_focused_20251009_202025",
+    "end_time": "2025-10-09T20:20:25.129854",
+    "final_metrics": {
+      "test_f1": 0.74,
+      "test_precision": 0.76,
+      "test_recall": 0.71
+    }
+  },
+  "JET_t_baseline_20251009_202045": {
+    "name": "JET_t_baseline",
+    "config": {
+      "model": "JET_t",
+      "learning_rate": 2e-05,
+      "batch_size": 8,
+      "max_epochs": 10,
+      "dropout": 0.1,
+      "max_offset": 10
+    },
+    "start_time": "2025-10-09T20:20:45.821191",
+    "status": "completed",
+    "metrics": {
+      "train": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:20:45.822275",
+          "loss": 1.8869039276347017,
+          "f1": 0.5221343343730075,
+          "precision": 0.6239715310277374,
+          "recall": 0.4487583255696934
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:20:45.823218",
+          "loss": 1.2128329224514052,
+          "f1": 0.6414876098988791,
+          "precision": 0.6860468867868954,
+          "recall": 0.5468206309366507
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:20:45.824232",
+          "loss": 1.752615504274841,
+          "f1": 0.7384669134911532,
+          "precision": 0.7674641116897497,
+          "recall": 0.6681420487973494
+        }
+      ],
+      "valid": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:20:45.822275",
+          "f1": 0.4994536403715148,
+          "precision": 0.5981790662692766,
+          "recall": 0.3875859580948936
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:20:45.824232",
+          "f1": 0.5791950413465933,
+          "precision": 0.687884980720492,
+          "recall": 0.541696732313811
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:20:45.825248",
+          "f1": 0.7299185332135141,
+          "precision": 0.7876108645025536,
+          "recall": 0.675421703418112
+        }
+      ]
+    },
+    "checkpoints": [],
+    "dir": "experiments\\JET_t_baseline_20251009_202045",
+    "end_time": "2025-10-09T20:20:45.831202",
+    "final_metrics": {
+      "test_f1": 0.72,
+      "test_precision": 0.78,
+      "test_recall": 0.67
+    }
+  },
+  "JET_o_opinion_focused_20251009_202045": {
+    "name": "JET_o_opinion_focused",
+    "config": {
+      "model": "JET_o",
+      "learning_rate": 2e-05,
+      "batch_size": 8,
+      "max_epochs": 10,
+      "dropout": 0.1,
+      "max_offset": 10
+    },
+    "start_time": "2025-10-09T20:20:45.826257",
+    "status": "completed",
+    "metrics": {
+      "train": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:20:45.827259",
+          "loss": 0.5478862154725412,
+          "f1": 0.5214591304550473,
+          "precision": 0.5864966935745843,
+          "recall": 0.41675985402590715
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:20:45.828190",
+          "loss": 0.7108632611951062,
+          "f1": 0.6047841120789875,
+          "precision": 0.7168024814980013,
+          "recall": 0.5369886929466602
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:20:45.830190",
+          "loss": 1.2731607354241397,
+          "f1": 0.733234304260815,
+          "precision": 0.774558080843977,
+          "recall": 0.6702994229663412
+        }
+      ],
+      "valid": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:20:45.828190",
+          "f1": 0.4621969001492648,
+          "precision": 0.540724466978592,
+          "recall": 0.3564465162356017
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:20:45.829189",
+          "f1": 0.5610515738239782,
+          "precision": 0.6832548974147336,
+          "recall": 0.5298947394281909
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:20:45.831202",
+          "f1": 0.7197849194626795,
+          "precision": 0.7921566077164036,
+          "recall": 0.6999154641328573
+        }
+      ]
+    },
+    "checkpoints": [],
+    "dir": "experiments\\JET_o_opinion_focused_20251009_202045",
+    "end_time": "2025-10-09T20:20:45.832191",
+    "final_metrics": {
+      "test_f1": 0.74,
+      "test_precision": 0.76,
+      "test_recall": 0.71
+    }
+  },
+  "JET_t_baseline_20251009_202147": {
+    "name": "JET_t_baseline",
+    "config": {
+      "model": "JET_t",
+      "learning_rate": 2e-05,
+      "batch_size": 8,
+      "max_epochs": 10,
+      "dropout": 0.1,
+      "max_offset": 10
+    },
+    "start_time": "2025-10-09T20:21:47.417374",
+    "status": "completed",
+    "metrics": {
+      "train": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:21:47.418374",
+          "loss": 0.9057074396660902,
+          "f1": 0.5481960305482038,
+          "precision": 0.6113911331892826,
+          "recall": 0.42095934119823014
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:21:47.420403",
+          "loss": 0.1371409413368505,
+          "f1": 0.6439762878536137,
+          "precision": 0.6955298232780106,
+          "recall": 0.553162132585438
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:21:47.422431",
+          "loss": 0.5109749037625448,
+          "f1": 0.7492478476655944,
+          "precision": 0.7759061897544678,
+          "recall": 0.6622291988386841
+        }
+      ],
+      "valid": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:21:47.419438",
+          "f1": 0.4957772428148222,
+          "precision": 0.5665632833091837,
+          "recall": 0.3543967162286754
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:21:47.421405",
+          "f1": 0.5788405995046682,
+          "precision": 0.694589295072729,
+          "recall": 0.5154742219949096
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:21:47.423437",
+          "f1": 0.7378277872385245,
+          "precision": 0.7879788628933485,
+          "recall": 0.6678987139867057
+        }
+      ]
+    },
+    "checkpoints": [],
+    "dir": "experiments\\JET_t_baseline_20251009_202147",
+    "end_time": "2025-10-09T20:21:47.432373",
+    "final_metrics": {
+      "test_f1": 0.72,
+      "test_precision": 0.78,
+      "test_recall": 0.67
+    }
+  },
+  "JET_o_opinion_focused_20251009_202147": {
+    "name": "JET_o_opinion_focused",
+    "config": {
+      "model": "JET_o",
+      "learning_rate": 2e-05,
+      "batch_size": 8,
+      "max_epochs": 10,
+      "dropout": 0.1,
+      "max_offset": 10
+    },
+    "start_time": "2025-10-09T20:21:47.424372",
+    "status": "completed",
+    "metrics": {
+      "train": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:21:47.425386",
+          "loss": 0.7397473211938379,
+          "f1": 0.49512661273083597,
+          "precision": 0.6135479788292588,
+          "recall": 0.42261036083604064
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:21:47.427388",
+          "loss": 0.5471578462421438,
+          "f1": 0.6103369863826552,
+          "precision": 0.6877564285417069,
+          "recall": 0.5452225159295274
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:21:47.430373",
+          "loss": 1.7125581386288438,
+          "f1": 0.7354696678534773,
+          "precision": 0.7767954639694459,
+          "recall": 0.6702005692085192
+        }
+      ],
+      "valid": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T20:21:47.426379",
+          "f1": 0.4549826589470112,
+          "precision": 0.5613646568635569,
+          "recall": 0.3730459961216946
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T20:21:47.428374",
+          "f1": 0.600071789546571,
+          "precision": 0.6573033339317034,
+          "recall": 0.5054661822955977
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T20:21:47.431373",
+          "f1": 0.7144731347124365,
+          "precision": 0.796372160320894,
+          "recall": 0.6864611282166532
+        }
+      ]
+    },
+    "checkpoints": [],
+    "dir": "experiments\\JET_o_opinion_focused_20251009_202147",
+    "end_time": "2025-10-09T20:21:47.434370",
+    "final_metrics": {
+      "test_f1": 0.74,
+      "test_precision": 0.76,
+      "test_recall": 0.71
+    }
+  },
+  "ensemble_experiment_20251009_205713": {
+    "name": "ensemble_experiment",
+    "config": {
+      "model_mode": "ensemble",
+      "learning_rate": 2e-05,
+      "batch_size": 8,
+      "max_epochs": 10,
+      "ensemble_strategy": "jeto_priority",
+      "bert_model": "bert-base-uncased",
+      "train_samples": 1266,
+      "val_samples": 310
+    },
+    "start_time": "2025-10-09T20:57:13.336138",
+    "status": "running",
+    "metrics": {},
+    "checkpoints": [],
+    "dir": "experiments\\ensemble_experiment_20251009_205713"
+  },
+  "ensemble_experiment_20251009_210606": {
+    "name": "ensemble_experiment",
+    "config": {
+      "model_mode": "ensemble",
+      "learning_rate": 2e-05,
+      "batch_size": 8,
+      "max_epochs": 10,
+      "ensemble_strategy": "jeto_priority",
+      "bert_model": "bert-base-uncased",
+      "train_samples": 1266,
+      "val_samples": 310
+    },
+    "start_time": "2025-10-09T21:06:06.756987",
+    "status": "completed",
+    "metrics": {
+      "train": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T21:07:39.522632",
+          "loss": 3.2921052233977885
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T21:09:16.697919",
+          "loss": 2.5371043779565103
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T21:10:53.670084",
+          "loss": 2.1878757011965386
+        },
+        {
+          "epoch": 3,
+          "timestamp": "2025-10-09T21:12:31.975377",
+          "loss": 1.8995826266846567
+        },
+        {
+          "epoch": 4,
+          "timestamp": "2025-10-09T21:14:09.349750",
+          "loss": 1.6871782323849276
+        },
+        {
+          "epoch": 5,
+          "timestamp": "2025-10-09T21:15:47.689659",
+          "loss": 1.4989700898434382
+        },
+        {
+          "epoch": 6,
+          "timestamp": "2025-10-09T21:17:23.504028",
+          "loss": 1.3502533784452475
+        },
+        {
+          "epoch": 7,
+          "timestamp": "2025-10-09T21:19:02.196272",
+          "loss": 1.2213652055218536
+        },
+        {
+          "epoch": 8,
+          "timestamp": "2025-10-09T21:20:38.348715",
+          "loss": 1.1007475003881275
+        },
+        {
+          "epoch": 9,
+          "timestamp": "2025-10-09T21:22:17.591192",
+          "loss": 1.008022110042332
+        }
+      ],
+      "valid_jett": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T21:07:39.531629",
+          "precision": 0.2702702702702703,
+          "recall": 0.22530329289428075,
+          "f1": 0.24574669187145556,
+          "true_positives": 130,
+          "false_positives": 351,
+          "false_negatives": 447
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T21:09:16.705932",
+          "precision": 0.2782931354359926,
+          "recall": 0.25996533795493937,
+          "f1": 0.26881720430107536,
+          "true_positives": 150,
+          "false_positives": 389,
+          "false_negatives": 427
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T21:10:53.680095",
+          "precision": 0.33112582781456956,
+          "recall": 0.3466204506065858,
+          "f1": 0.3386960203217612,
+          "true_positives": 200,
+          "false_positives": 404,
+          "false_negatives": 377
+        },
+        {
+          "epoch": 3,
+          "timestamp": "2025-10-09T21:12:31.986385",
+          "precision": 0.4405594405594406,
+          "recall": 0.43674176776429807,
+          "f1": 0.4386422976501306,
+          "true_positives": 252,
+          "false_positives": 320,
+          "false_negatives": 325
+        },
+        {
+          "epoch": 4,
+          "timestamp": "2025-10-09T21:14:09.360684",
+          "precision": 0.43781094527363185,
+          "recall": 0.45753899480069327,
+          "f1": 0.4474576271186441,
+          "true_positives": 264,
+          "false_positives": 339,
+          "false_negatives": 313
+        },
+        {
+          "epoch": 5,
+          "timestamp": "2025-10-09T21:15:47.701663",
+          "precision": 0.42586750788643535,
+          "recall": 0.4679376083188908,
+          "f1": 0.4459124690338563,
+          "true_positives": 270,
+          "false_positives": 364,
+          "false_negatives": 307
+        },
+        {
+          "epoch": 6,
+          "timestamp": "2025-10-09T21:17:23.518029",
+          "precision": 0.45662847790507366,
+          "recall": 0.48353552859618715,
+          "f1": 0.46969696969696967,
+          "true_positives": 279,
+          "false_positives": 332,
+          "false_negatives": 298
+        },
+        {
+          "epoch": 7,
+          "timestamp": "2025-10-09T21:19:02.208199",
+          "precision": 0.4748322147651007,
+          "recall": 0.4904679376083189,
+          "f1": 0.4825234441602728,
+          "true_positives": 283,
+          "false_positives": 313,
+          "false_negatives": 294
+        },
+        {
+          "epoch": 8,
+          "timestamp": "2025-10-09T21:20:38.363722",
+          "precision": 0.5051369863013698,
+          "recall": 0.511265164644714,
+          "f1": 0.508182601205857,
+          "true_positives": 295,
+          "false_positives": 289,
+          "false_negatives": 282
+        },
+        {
+          "epoch": 9,
+          "timestamp": "2025-10-09T21:22:17.602132",
+          "precision": 0.5008547008547009,
+          "recall": 0.5077989601386482,
+          "f1": 0.5043029259896729,
+          "true_positives": 293,
+          "false_positives": 292,
+          "false_negatives": 284
+        }
+      ],
+      "valid_jeto": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T21:07:39.540645",
+          "precision": 0.3153153153153153,
+          "recall": 0.24263431542461006,
+          "f1": 0.27424094025465223,
+          "true_positives": 140,
+          "false_positives": 304,
+          "false_negatives": 437
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T21:09:16.712927",
+          "precision": 0.30126182965299686,
+          "recall": 0.3310225303292894,
+          "f1": 0.31544178364987613,
+          "true_positives": 191,
+          "false_positives": 443,
+          "false_negatives": 386
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T21:10:53.691326",
+          "precision": 0.32348596750369274,
+          "recall": 0.37954939341421146,
+          "f1": 0.3492822966507177,
+          "true_positives": 219,
+          "false_positives": 458,
+          "false_negatives": 358
+        },
+        {
+          "epoch": 3,
+          "timestamp": "2025-10-09T21:12:31.997394",
+          "precision": 0.4404973357015986,
+          "recall": 0.42980935875216636,
+          "f1": 0.43508771929824563,
+          "true_positives": 248,
+          "false_positives": 315,
+          "false_negatives": 329
+        },
+        {
+          "epoch": 4,
+          "timestamp": "2025-10-09T21:14:09.371715",
+          "precision": 0.47038327526132406,
+          "recall": 0.4679376083188908,
+          "f1": 0.46915725456125107,
+          "true_positives": 270,
+          "false_positives": 304,
+          "false_negatives": 307
+        },
+        {
+          "epoch": 5,
+          "timestamp": "2025-10-09T21:15:47.717738",
+          "precision": 0.453030303030303,
+          "recall": 0.5181975736568457,
+          "f1": 0.4834276475343573,
+          "true_positives": 299,
+          "false_positives": 361,
+          "false_negatives": 278
+        },
+        {
+          "epoch": 6,
+          "timestamp": "2025-10-09T21:17:23.530022",
+          "precision": 0.5026178010471204,
+          "recall": 0.49913344887348354,
+          "f1": 0.5008695652173913,
+          "true_positives": 288,
+          "false_positives": 285,
+          "false_negatives": 289
+        },
+        {
+          "epoch": 7,
+          "timestamp": "2025-10-09T21:19:02.217251",
+          "precision": 0.45770392749244715,
+          "recall": 0.5251299826689775,
+          "f1": 0.4891041162227603,
+          "true_positives": 303,
+          "false_positives": 359,
+          "false_negatives": 274
+        },
+        {
+          "epoch": 8,
+          "timestamp": "2025-10-09T21:20:38.376734",
+          "precision": 0.5361010830324909,
+          "recall": 0.5147313691507799,
+          "f1": 0.5251989389920424,
+          "true_positives": 297,
+          "false_positives": 257,
+          "false_negatives": 280
+        },
+        {
+          "epoch": 9,
+          "timestamp": "2025-10-09T21:22:17.615127",
+          "precision": 0.5024630541871922,
+          "recall": 0.5303292894280762,
+          "f1": 0.5160202360876898,
+          "true_positives": 306,
+          "false_positives": 303,
+          "false_negatives": 271
+        }
+      ],
+      "valid_ensemble": [
+        {
+          "epoch": 0,
+          "timestamp": "2025-10-09T21:07:39.549625",
+          "precision": 0.21846153846153846,
+          "recall": 0.24610051993067592,
+          "f1": 0.23145884270578648,
+          "true_positives": 142,
+          "false_positives": 508,
+          "false_negatives": 435
+        },
+        {
+          "epoch": 1,
+          "timestamp": "2025-10-09T21:09:16.719858",
+          "precision": 0.2430025445292621,
+          "recall": 0.3310225303292894,
+          "f1": 0.2802641232575202,
+          "true_positives": 191,
+          "false_positives": 595,
+          "false_negatives": 386
+        },
+        {
+          "epoch": 2,
+          "timestamp": "2025-10-09T21:10:53.701329",
+          "precision": 0.26528258362168394,
+          "recall": 0.3986135181975737,
+          "f1": 0.3185595567867036,
+          "true_positives": 230,
+          "false_positives": 637,
+          "false_negatives": 347
+        },
+        {
+          "epoch": 3,
+          "timestamp": "2025-10-09T21:12:32.010321",
+          "precision": 0.3468057366362451,
+          "recall": 0.4610051993067591,
+          "f1": 0.3958333333333333,
+          "true_positives": 266,
+          "false_positives": 501,
+          "false_negatives": 311
+        },
+        {
+          "epoch": 4,
+          "timestamp": "2025-10-09T21:14:09.381749",
+          "precision": 0.3697585768742058,
+          "recall": 0.5043327556325823,
+          "f1": 0.42668621700879766,
+          "true_positives": 291,
+          "false_positives": 496,
+          "false_negatives": 286
+        },
+        {
+          "epoch": 5,
+          "timestamp": "2025-10-09T21:15:47.729792",
+          "precision": 0.3486547085201794,
+          "recall": 0.5389948006932409,
+          "f1": 0.42341729067392786,
+          "true_positives": 311,
+          "false_positives": 581,
+          "false_negatives": 266
+        },
+        {
+          "epoch": 6,
+          "timestamp": "2025-10-09T21:17:23.541041",
+          "precision": 0.38235294117647056,
+          "recall": 0.5407279029462738,
+          "f1": 0.44795405599425697,
+          "true_positives": 312,
+          "false_positives": 504,
+          "false_negatives": 265
+        },
+        {
+          "epoch": 7,
+          "timestamp": "2025-10-09T21:19:02.229187",
+          "precision": 0.36860068259385664,
+          "recall": 0.561525129982669,
+          "f1": 0.44505494505494503,
+          "true_positives": 324,
+          "false_positives": 555,
+          "false_negatives": 253
+        },
+        {
+          "epoch": 8,
+          "timestamp": "2025-10-09T21:20:38.419508",
+          "precision": 0.4049689440993789,
+          "recall": 0.5649913344887348,
+          "f1": 0.47178002894356,
+          "true_positives": 326,
+          "false_positives": 479,
+          "false_negatives": 251
+        },
+        {
+          "epoch": 9,
+          "timestamp": "2025-10-09T21:22:17.628129",
+          "precision": 0.40212264150943394,
+          "recall": 0.5909878682842288,
+          "f1": 0.47859649122807013,
+          "true_positives": 341,
+          "false_positives": 507,
+          "false_negatives": 236
+        }
+      ]
+    },
+    "checkpoints": [
+      {
+        "epoch": 0,
+        "path": "experiments\\ensemble_experiment_20251009_210606\\best_model.pt",
+        "metrics": {
+          "jett": {
+            "precision": 0.2702702702702703,
+            "recall": 0.22530329289428075,
+            "f1": 0.24574669187145556,
+            "true_positives": 130,
+            "false_positives": 351,
+            "false_negatives": 447
+          },
+          "jeto": {
+            "precision": 0.3153153153153153,
+            "recall": 0.24263431542461006,
+            "f1": 0.27424094025465223,
+            "true_positives": 140,
+            "false_positives": 304,
+            "false_negatives": 437
+          },
+          "ensemble": {
+            "precision": 0.21846153846153846,
+            "recall": 0.24610051993067592,
+            "f1": 0.23145884270578648,
+            "true_positives": 142,
+            "false_positives": 508,
+            "false_negatives": 435
+          }
+        },
+        "is_best": true
+      },
+      {
+        "epoch": 1,
+        "path": "experiments\\ensemble_experiment_20251009_210606\\best_model.pt",
+        "metrics": {
+          "jett": {
+            "precision": 0.2782931354359926,
+            "recall": 0.25996533795493937,
+            "f1": 0.26881720430107536,
+            "true_positives": 150,
+            "false_positives": 389,
+            "false_negatives": 427
+          },
+          "jeto": {
+            "precision": 0.30126182965299686,
+            "recall": 0.3310225303292894,
+            "f1": 0.31544178364987613,
+            "true_positives": 191,
+            "false_positives": 443,
+            "false_negatives": 386
+          },
+          "ensemble": {
+            "precision": 0.2430025445292621,
+            "recall": 0.3310225303292894,
+            "f1": 0.2802641232575202,
+            "true_positives": 191,
+            "false_positives": 595,
+            "false_negatives": 386
+          }
+        },
+        "is_best": true
+      },
+      {
+        "epoch": 2,
+        "path": "experiments\\ensemble_experiment_20251009_210606\\best_model.pt",
+        "metrics": {
+          "jett": {
+            "precision": 0.33112582781456956,
+            "recall": 0.3466204506065858,
+            "f1": 0.3386960203217612,
+            "true_positives": 200,
+            "false_positives": 404,
+            "false_negatives": 377
+          },
+          "jeto": {
+            "precision": 0.32348596750369274,
+            "recall": 0.37954939341421146,
+            "f1": 0.3492822966507177,
+            "true_positives": 219,
+            "false_positives": 458,
+            "false_negatives": 358
+          },
+          "ensemble": {
+            "precision": 0.26528258362168394,
+            "recall": 0.3986135181975737,
+            "f1": 0.3185595567867036,
+            "true_positives": 230,
+            "false_positives": 637,
+            "false_negatives": 347
+          }
+        },
+        "is_best": true
+      },
+      {
+        "epoch": 3,
+        "path": "experiments\\ensemble_experiment_20251009_210606\\best_model.pt",
+        "metrics": {
+          "jett": {
+            "precision": 0.4405594405594406,
+            "recall": 0.43674176776429807,
+            "f1": 0.4386422976501306,
+            "true_positives": 252,
+            "false_positives": 320,
+            "false_negatives": 325
+          },
+          "jeto": {
+            "precision": 0.4404973357015986,
+            "recall": 0.42980935875216636,
+            "f1": 0.43508771929824563,
+            "true_positives": 248,
+            "false_positives": 315,
+            "false_negatives": 329
+          },
+          "ensemble": {
+            "precision": 0.3468057366362451,
+            "recall": 0.4610051993067591,
+            "f1": 0.3958333333333333,
+            "true_positives": 266,
+            "false_positives": 501,
+            "false_negatives": 311
+          }
+        },
+        "is_best": true
+      },
+      {
+        "epoch": 4,
+        "path": "experiments\\ensemble_experiment_20251009_210606\\best_model.pt",
+        "metrics": {
+          "jett": {
+            "precision": 0.43781094527363185,
+            "recall": 0.45753899480069327,
+            "f1": 0.4474576271186441,
+            "true_positives": 264,
+            "false_positives": 339,
+            "false_negatives": 313
+          },
+          "jeto": {
+            "precision": 0.47038327526132406,
+            "recall": 0.4679376083188908,
+            "f1": 0.46915725456125107,
+            "true_positives": 270,
+            "false_positives": 304,
+            "false_negatives": 307
+          },
+          "ensemble": {
+            "precision": 0.3697585768742058,
+            "recall": 0.5043327556325823,
+            "f1": 0.42668621700879766,
+            "true_positives": 291,
+            "false_positives": 496,
+            "false_negatives": 286
+          }
+        },
+        "is_best": true
+      },
+      {
+        "epoch": 6,
+        "path": "experiments\\ensemble_experiment_20251009_210606\\best_model.pt",
+        "metrics": {
+          "jett": {
+            "precision": 0.45662847790507366,
+            "recall": 0.48353552859618715,
+            "f1": 0.46969696969696967,
+            "true_positives": 279,
+            "false_positives": 332,
+            "false_negatives": 298
+          },
+          "jeto": {
+            "precision": 0.5026178010471204,
+            "recall": 0.49913344887348354,
+            "f1": 0.5008695652173913,
+            "true_positives": 288,
+            "false_positives": 285,
+            "false_negatives": 289
+          },
+          "ensemble": {
+            "precision": 0.38235294117647056,
+            "recall": 0.5407279029462738,
+            "f1": 0.44795405599425697,
+            "true_positives": 312,
+            "false_positives": 504,
+            "false_negatives": 265
+          }
+        },
+        "is_best": true
+      },
+      {
+        "epoch": 8,
+        "path": "experiments\\ensemble_experiment_20251009_210606\\best_model.pt",
+        "metrics": {
+          "jett": {
+            "precision": 0.5051369863013698,
+            "recall": 0.511265164644714,
+            "f1": 0.508182601205857,
+            "true_positives": 295,
+            "false_positives": 289,
+            "false_negatives": 282
+          },
+          "jeto": {
+            "precision": 0.5361010830324909,
+            "recall": 0.5147313691507799,
+            "f1": 0.5251989389920424,
+            "true_positives": 297,
+            "false_positives": 257,
+            "false_negatives": 280
+          },
+          "ensemble": {
+            "precision": 0.4049689440993789,
+            "recall": 0.5649913344887348,
+            "f1": 0.47178002894356,
+            "true_positives": 326,
+            "false_positives": 479,
+            "false_negatives": 251
+          }
+        },
+        "is_best": true
+      },
+      {
+        "epoch": 9,
+        "path": "experiments\\ensemble_experiment_20251009_210606\\best_model.pt",
+        "metrics": {
+          "jett": {
+            "precision": 0.5008547008547009,
+            "recall": 0.5077989601386482,
+            "f1": 0.5043029259896729,
+            "true_positives": 293,
+            "false_positives": 292,
+            "false_negatives": 284
+          },
+          "jeto": {
+            "precision": 0.5024630541871922,
+            "recall": 0.5303292894280762,
+            "f1": 0.5160202360876898,
+            "true_positives": 306,
+            "false_positives": 303,
+            "false_negatives": 271
+          },
+          "ensemble": {
+            "precision": 0.40212264150943394,
+            "recall": 0.5909878682842288,
+            "f1": 0.47859649122807013,
+            "true_positives": 341,
+            "false_positives": 507,
+            "false_negatives": 236
+          }
+        },
+        "is_best": true
+      }
+    ],
+    "dir": "experiments\\ensemble_experiment_20251009_210606",
+    "end_time": "2025-10-09T21:22:45.447842",
+    "final_metrics": {
+      "test_precision": 0.41017173051519157,
+      "test_recall": 0.6247484909456741,
+      "test_f1": 0.49521531100478466,
+      "test_true_positives": 621,
+      "test_false_positives": 893,
+      "test_false_negatives": 373
+    }
+  }
+}
